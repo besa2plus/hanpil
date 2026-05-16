@@ -1,0 +1,130 @@
+# ==========================================
+# hanpil - Multi-language .gitignore
+# Rust, Python, Node.js/TS, PHP, general
+# ==========================================
+
+# ------------------------
+# Rust
+# ------------------------
+target/
+**/*.rs.bk
+Cargo.lock
+
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.env
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyre/
+.pytype/
+.coverage
+htmlcov/
+
+# ------------------------
+# Node.js / JavaScript / TypeScript
+# ------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+.vite/
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+
+# ------------------------
+# PHP
+# ------------------------
+vendor/
+.phpunit.result.cache
+.phpunit.cache/
+storage/logs/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+
+# ------------------------
+# Logs & temp
+# ------------------------
+logs/
+*.log
+*.bak
+*.tmp
+*.swp
+*.swo
+*~
+
+# ------------------------
+# Environment & secrets
+# ------------------------
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ------------------------
+# Editor / IDE
+# ------------------------
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------
+# Cursor (local only)
+# ------------------------
+.cursor/
+
+# Keep shared rules
+!.cursor/rules/
+
+# ------------------------
+# OS generated
+# ------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# ------------------------
+# Misc
+# ------------------------
+*.bak
+*.tmp
+*.orig
+*.patch
